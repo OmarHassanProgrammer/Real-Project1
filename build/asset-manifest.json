@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e4c6ff0b.css",
+    "main.js": "/static/js/main.25565925.js",
+    "static/js/787.23920efc.chunk.js": "/static/js/787.23920efc.chunk.js",
+    "static/media/platform.svg": "/static/media/platform.a1d12ab2bf02f8491f6aa90fd6631755.svg",
+    "static/media/coca-cola-white.svg": "/static/media/coca-cola-white.0c7a3f06392c7fc32a0c8615991c3bc1.svg",
+    "static/media/Coca-Cola-Logo.svg": "/static/media/Coca-Cola-Logo.e3576b82e570de0faeb970729ddf2a03.svg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/volume.svg": "/static/media/volume.67de6005b39c6301678553e43dc1a5e2.svg",
+    "static/media/production.svg": "/static/media/production.bf6b046ed7e7bd4b69a6f84fe23959af.svg",
+    "static/media/setting.svg": "/static/media/setting.582e4afba7f242e47edab559cf09a76b.svg",
+    "static/media/quality.svg": "/static/media/quality.d4cc067dda39f14b66f588d61c8686c9.svg",
+    "static/media/pereformance.svg": "/static/media/pereformance.ace607f2a8bf82ec794958220e71c361.svg",
+    "static/media/speed.svg": "/static/media/speed.abe93abebc66b144a87f083e9113fa84.svg",
+    "static/media/reports.svg": "/static/media/reports.17bf0b7d49a7e89b9f77891de1d1ff29.svg",
+    "static/media/product.svg": "/static/media/product.73b171ecd0473af5eb0c558764e384d7.svg",
+    "index.html": "/index.html",
+    "static/media/planning.svg": "/static/media/planning.5dcc8fe00816ce5af1d52617a838ae73.svg",
+    "static/media/Dashboard.svg": "/static/media/Dashboard.fa7ac9daaf9daef27798100c85b4f6c8.svg",
+    "static/media/logout.svg": "/static/media/logout.46eb9904eb96d08e37caa69858ac4a9d.svg",
+    "static/media/factoryIcon.svg": "/static/media/factoryIcon.9b4105dc3b15cd30f84be94a8f713f74.svg",
+    "static/media/machine.svg": "/static/media/machine.89f0817c628ecc5a909e1e024212b55d.svg",
+    "static/media/machines.svg": "/static/media/machines.83f9dc2716e82a5aa17c98c4c1bc2459.svg",
+    "static/media/planet.svg": "/static/media/planet.30c42c018ec8098b8ece83af4a30d26d.svg",
+    "static/media/line.svg": "/static/media/line.2db2627e14482240d1e774f8a6e473e0.svg",
+    "static/media/Activity-1.svg": "/static/media/Activity-1.de5e6953f25904cf817eb98c46f6435a.svg",
+    "static/media/Activity.svg": "/static/media/Activity.de5e6953f25904cf817eb98c46f6435a.svg",
+    "static/media/cycle.svg": "/static/media/cycle.cd528a2ac6377b3cc86b7a430b3ae7c8.svg",
+    "static/media/active.svg": "/static/media/active.3fadfed209aa31d7c8e45a7c99689bcb.svg",
+    "static/media/power.svg": "/static/media/power.e0ed2680998126e40effcf3c58954058.svg",
+    "main.e4c6ff0b.css.map": "/static/css/main.e4c6ff0b.css.map",
+    "main.25565925.js.map": "/static/js/main.25565925.js.map",
+    "787.23920efc.chunk.js.map": "/static/js/787.23920efc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4c6ff0b.css",
+    "static/js/main.25565925.js"
+  ]
+}

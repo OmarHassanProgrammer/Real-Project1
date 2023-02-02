@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+.Login {
+    display: flex;
+    
+}
+.Login .left {
+    flex: 3;
+    height: 100vh;
+    display: inline-block;
+    background-color: #f40009;
+}
+.Login .left .center_img {
+    text-align: center;
+}
+.Login .left img {
+    height: 90vh;
+    margin-top: 5vh; 
+}
+.Login .right {
+    flex:1;
+    height: 100vh;
+    display: inline-block;
+
+}
+.Login .right .head {
+    display: flex;
+    justify-content: center;
+}
+.Login .right .head {
+    margin-top: 100px;
+}
+.Login .right .head .logo {
+    display: inline-block;
+    display: flex;
+    vertical-align:middle;
+    margin-right: 10px;
+    margin-top: 32px;
+    height: 30px;
+}
+.Login .right .head .title {
+    display: inline-block;
+    font-size: 1.5em;
+    color: #f40009;
+    font: normal normal normal 38px/47px Montserrat;
+letter-spacing: 0px;
+}
+
+.Login .login-form  {
+    text-align: center;
+    margin: 200px auto 0;
+    width: 70%;
+}
+.Login .login-form input, .login-form .button {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 12px 28px;
+    outline: none;
+}
+.Login .login-form input:hover {
+    outline: none;
+}
+.Login .login-form .button {
+    background-color: #f40009;
+    color: #fff;
+    font: normal normal bold 18px/22px Montserrat;
+letter-spacing: 0.9px;
+    cursor: pointer;
+}
+.Login .login-form input:focus {
+    border: 1px solid #f40009;
+}
+.Login .bottom-logo {
+    margin: 30px auto 0;
+    width: 100%;
+}
+.Login .bottom-logo img {
+    height: 65px;
+    margin: 0 auto;
+}
+.Login input::placeholder {
+    font-size: 16px;
+    color: #aaa;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/21px Roboto;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0.8px;
+}
+.Login input:focus::placeholder {
+    color: #000;
+
+}
+.Login .login-form .button {
+    text-decoration: none;
+}

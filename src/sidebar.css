@@ -1,0 +1,73 @@
+.sidebar {
+    width: 13.5%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #f40009;
+    height: 100vh
+    ;
+}
+.sidebar .head {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.sidebar .head .logo {
+    display: inline-block;
+    display: flex;
+    vertical-align:middle;
+    margin-right: 10px;
+}
+.sidebar .head .title {
+    display: inline-block;
+    font-size: 26px;
+    color: #fff;
+    
+font: normal normal normal 26px/31px Montserrat;
+letter-spacing: 0px;
+}
+.sidebar .nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar .middle-nav {
+    margin-top: 60px;
+}
+.sidebar .nav .item {
+    padding: 5px 0 5px 25px;
+    font-size: 16px;
+    color: #e7e7e7;
+    cursor: pointer;
+    position: relative;
+    margin-top: 4px;
+}
+.sidebar .nav .item:hover {
+    color: #fff;
+}
+.sidebar .nav .item:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    border-radius: 0 20px 20px 0;
+    background-color: #00000029;
+    transition: all .5s ease-in-out;
+}
+.sidebar .nav .item:hover:before {
+    width: 90%;
+}
+.sidebar .nav .item .icon {
+    width: 24px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.sidebar .bottom-nav {
+    margin-top: 100px;
+}
+.sidebar .bottom img {
+    width: 100%;
+    margin-top: 50px;
+}

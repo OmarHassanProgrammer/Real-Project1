@@ -1,0 +1,49 @@
+.main-dashboard {
+    margin-left: 13.5%;
+    padding: 30px;
+    background-color: #f4f7fe;
+    min-height: 86.5vh;
+}
+
+.main-dashboard .top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main-dashboard .top .navigation {
+    color: #003F5C;
+    font-weight: 500;
+}
+
+.main-dashboard .top .sub-filter {
+    border-radius: 12px;
+    box-shadow: #eee 0px 0px 5px 5px;
+    background-color: #fff;
+    padding: 3px;
+}
+
+.main-dashboard .top .sub-filter .item {
+    display: inline-block;
+    padding: 7px 12px;
+    color: #888;
+    font-weight: 500;
+}
+
+.main-dashboard .top .sub-filter .item.active {
+    background-color: #f40009;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.main-dashboard .factories {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-dashboard .factories .factory {
+    flex: 3;
+    flex: 1 0 21%;  
+}
+
+.main-dashboard .factories .factory:not(:last-of-type) {
+    margin-right: 7px;
+}

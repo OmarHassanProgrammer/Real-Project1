@@ -1,0 +1,88 @@
+.factory {
+    background-color: #fff;
+    box-shadow: #eee 0px 0px 5px 5px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+.factory .head {
+    background-color: #08415C;
+    padding: 7px 15px;
+    color: #fff;
+    border-radius: 7px 7px 0 0;
+}
+
+.factory .body {
+
+}
+
+.factory .fac-list {
+    list-style: none;
+    margin: 15px;
+    padding: 0;
+}
+.factory .fac-list .item {
+    padding: 7px 0;
+    display: flex;
+    font-weight: 500;
+    justify-content: space-between;
+}
+.factory .fac-list .item .item-title {
+    color: #2C3E50;
+}
+.factory .fac-list .item .item-value {
+    color: #8D9192;
+    font-size: 1.1rem;
+}
+.factory .fac-list .item .item-value .unit {
+    font-size: .8rem
+}
+.factory .border {
+    height: 1px;
+    width: 100%;
+    display: inline-block;
+    background-color: #000;
+    position: relative;
+    top: -25px;
+    z-index: 1;
+}
+.factory .border-text {
+    background-color: #fff;
+    padding: 0 10px;
+    margin-left: 60%;
+    color: #08415C;
+    font-weight: 500;
+    z-index: 2;
+    position: relative;
+}
+
+.charts {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.charts .item {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+.charts .item {
+    margin: 0 10px;
+}
+.charts .item {
+    padding: 5px;
+}
+.charts .item svg {
+    width: 100%;
+}
+.charts .item .label {
+    font-size: 0.8rem;
+    display: block;
+}
+.charts .item .value {
+    display: block;
+    position: relative;
+    top: -45px;
+    font-weight: 500;
+}

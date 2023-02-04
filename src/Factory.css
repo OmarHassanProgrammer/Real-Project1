@@ -30,6 +30,9 @@
 .factory .fac-list .item .item-title {
     color: #2C3E50;
 }
+.factory .fac-list .item .item-title span {
+    vertical-align: super;
+}
 .factory .fac-list .item .item-value {
     color: #8D9192;
     font-size: 1.1rem;

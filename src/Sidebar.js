@@ -1,5 +1,4 @@
 import platform from './assets/images/platform.svg';
-import factoryIcon from './assets/images/factoryIcon.svg';
 import cocaColaWhite from './assets/images/coca-cola-white.svg';
 import machines from './assets/images/machines.svg';
 import product from './assets/images/product.svg';
@@ -11,6 +10,7 @@ import machine from './assets/images/machine.svg';
 import planning from './assets/images/planning.svg';
 import reports from './assets/images/reports.svg';
 import setting from './assets/images/setting.svg';
+import factoryIcon from './assets/images/factoryIcon (2).svg'; 
 import logout from './assets/images/logout.svg';
 import planet from './assets/images/planet.svg';
 import activity1 from './assets/images/Activity.svg';
@@ -21,7 +21,7 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <div className='head'>
-          <img src={factoryIcon} className='logo' alt='coca-cola-logo' />
+        <img src={factoryIcon} className='logo' alt='coca-cola-logo' />
           <h1 className='title'>MES</h1>
       </div>
       <ul className='middle-nav nav'>

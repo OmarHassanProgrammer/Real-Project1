@@ -34,7 +34,11 @@
     grid-template-areas: "select";
     align-items: center;
 }
-.navbar .select.factory::before {
+.navbar .select .option {
+    padding: 10px;
+
+}
+.navbar .select.factory-nav::before {
     content: "";
     width: 0.6em;
     height: 0.4em;

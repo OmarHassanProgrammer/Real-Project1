@@ -1,0 +1,9 @@
+<svg id="pallete" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path id="Path_724" data-name="Path 724" d="M0,0H24V24H0Z" fill="none"/>
+  <path id="Path_726" data-name="Path 726" d="M5,10h5.406v5.406H5Z" transform="translate(-1.109 4.703)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Path_727" data-name="Path 727" d="M8,10h5.406v5.406H8Z" transform="translate(1.297 4.703)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Path_728" data-name="Path 728" d="M11,10h5.406v5.406H11Z" transform="translate(3.703 4.703)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Path_729" data-name="Path 729" d="M8,7h5.406v5.406H8Z" transform="translate(1.297 2.297)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Path_730" data-name="Path 730" d="M11,7h5.406v5.406H11Z" transform="translate(3.703 2.297)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Path_731" data-name="Path 731" d="M11,4h5.406V9.406H11Z" transform="translate(3.703 -0.109)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+</svg>

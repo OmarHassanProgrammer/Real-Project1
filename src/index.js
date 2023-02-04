@@ -9,6 +9,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import MainDashboard from "./MainDashboard";
+import FactoryPage from './FactoryPage';
+import LinePage from './LinePage';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +24,14 @@ const router = createBrowserRouter([
       {
         path: "main",
         element: <MainDashboard />
+      },
+      {
+        path: "factory",
+        element: <FactoryPage />
+      },
+      {
+        path: "line",
+        element: <LinePage />
       }
     ]
   }

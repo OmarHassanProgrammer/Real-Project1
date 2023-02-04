@@ -1,9 +1,12 @@
 import './navbar.css';
 import { useFormik } from 'formik';
 import planetLogo from './assets/images/planet.svg';
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
-function Navbar() {
-    
+
+function Navbar(props) {
+    const navigate = useNavigate();
     const formik = useFormik({
         initialValues: {
           factory: '0',
@@ -12,24 +15,38 @@ function Navbar() {
         onSubmit: values => {
           
         },
+
       });
+
+      
+      useEffect(() => {
+        if(formik.values.factory == 0) {
+            navigate('/dashboard/main');
+        } else {
+            if(formik.values.line == 0) {
+                navigate('/dashboard/factory');
+            } else {
+                navigate('/dashboard/line');
+            }
+        }
+      }, [formik.values.factory, formik.values.line]);
 
   return (
     <div className="navbar">
         <div className='right'>
             <form onSubmit={formik.handleSubmit}>
-                <div className='select factory'>
+                <div className='select factory-nav'>
                     <select value={formik.values.factory} name='factory' onChange={formik.handleChange}>
-                        <option value="0" label="All factories" />
-                        <option value="1" label="Factory Name" />
-                        <option value="2" label="Factory Name" />
-                        <option value="3" label="Factory Name" />
-                        <option value="4" label="Factory Name" />
+                        <option value="0" className='option'>All factories</option>
+                        <option value="1" className='option'>Factory Name</option>
+                        <option value="2" className='option'>Factory Name</option>
+                        <option value="3" className='option'>Factory Name</option>
+                        <option value="4" className='option'>Factory Name</option>
                     </select>
                 </div>
             {          
                 formik.values.factory != 0?
-                    <div className='select line'>
+                    <div className='select line-nav'>
                         <select value={formik.values.line} name='line' onChange={formik.handleChange}>
                             <option value="0" label="Choose Line" />
                             <option value="1" label="Line Name" />
@@ -38,6 +55,7 @@ function Navbar() {
                             <option value="4" label="Line Name" />
                         </select>
                     </div>
+
                 :""
             }
             </form>

@@ -1,0 +1,6 @@
+<svg id="bottle" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path id="Path_718" data-name="Path 718" d="M0,0H24V24H0Z" fill="none"/>
+  <path id="Path_719" data-name="Path 719" d="M10,5h4V3a1,1,0,0,0-1-1H11a1,1,0,0,0-1,1Z" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Path_720" data-name="Path 720" d="M14,3.5a7.825,7.825,0,0,0,1.45,4.537l.05.07A8.093,8.093,0,0,1,17,12.8V19a2,2,0,0,1-2,2H9a2,2,0,0,1-2-2V12.8A8.091,8.091,0,0,1,8.5,8.107l.05-.07A7.823,7.823,0,0,0,10,3.5" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Path_721" data-name="Path 721" d="M7,14.8A2.4,2.4,0,0,0,8,14a2.4,2.4,0,0,1,2-1,2.4,2.4,0,0,1,2,1,2.5,2.5,0,0,0,4,0,2.4,2.4,0,0,1,1-.805" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+</svg>

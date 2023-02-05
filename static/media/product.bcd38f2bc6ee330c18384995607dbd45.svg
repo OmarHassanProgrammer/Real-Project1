@@ -1,0 +1,11 @@
+<svg id="product" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path id="Path_434" data-name="Path 434" d="M0,0H24V24H0Z" fill="none"/>
+  <path id="Path_435" data-name="Path 435" d="M4,7V6A2,2,0,0,1,6,4H8" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Path_436" data-name="Path 436" d="M4,17v1a2,2,0,0,0,2,2H8" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Path_437" data-name="Path 437" d="M16,4h2a2,2,0,0,1,2,2V7" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Path_438" data-name="Path 438" d="M16,20h2a2,2,0,0,0,2-2V17" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <rect id="Rectangle_283" data-name="Rectangle 283" width="1" height="2" transform="translate(5 11)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <line id="Line_121" data-name="Line 121" y2="2" transform="translate(10 11)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <rect id="Rectangle_284" data-name="Rectangle 284" width="1" height="2" transform="translate(14 11)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <line id="Line_122" data-name="Line 122" y2="2" transform="translate(19 11)" fill="none" stroke="#2c3e50" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+</svg>

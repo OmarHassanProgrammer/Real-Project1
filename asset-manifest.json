@@ -41,7 +41,7 @@
     "787.23920efc.chunk.js.map": "/Real-Project1/static/js/787.23920efc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.49decac7.css",
-    "static/js/main.0b213238.js"
+    "/Real-Project1/stcatic/css/main.49decac7.css",
+    "/Real-Project1/static/js/main.0b213238.js"
   ]
 }
